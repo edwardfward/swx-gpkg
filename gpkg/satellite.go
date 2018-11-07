@@ -17,4 +17,9 @@ type Satellite struct {
 	TimeNanoSeconds         float64   `json:"time_nano_seconds"`
 	Time1SigmaSeconds       float64   `json:"time_1_sigma_seconds"`
 	HasCarrierFrequency     bool      `json:"has_carrier_frequency"`
+	PseudoRateMPS           float64   `json:"pseudo_rate_mps"`
+	PseudoRate1Sigma        float64   `json:"pseudo_rate_1_sigma"`
+	HasEphemeris            bool      `json:"has_ephemeris"`
+	Azimuth                 float64   `json:"azimuth"`
+	Elevation               float64   `json:"elevation"`
 }
